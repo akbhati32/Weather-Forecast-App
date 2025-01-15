@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .box-card {
+      @apply p-4 rounded-md bg-search w-2/5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 sm:w-2/5
+    }
+
+    .recent-cities {
+      @apply absolute bg-search z-10 text-center top-14 w-60
+    }
+
+    .recent-cities li {
+      @apply p-3 hover:bg-header cursor-pointer
+    }
+  }
